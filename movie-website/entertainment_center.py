@@ -39,8 +39,11 @@ true_grit = media.Movie("True Grit",
                         )
 
 movies = [space_odyssey, apollo_13, big_lebowski, life_aquatic, there_will_be_blood, true_grit]
-fresh_tomatoes.open_movies_page(movies)
-
+#fresh_tomatoes.open_movies_page(movies)
+#print(media.Movie.VALID_RATINGS)
+#print(media.Movie.__doc__)
+#print(media.Movie.__name__)
+print(media.Movie.__module__)
 
                 
 
