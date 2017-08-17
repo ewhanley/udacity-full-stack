@@ -1,18 +1,15 @@
 import media
 import fresh_tomatoes
 
-space_odyssey = media.Movie('62')
+movie_titles = ['2001 space odyssey',
+                'apollo 13',
+                'the big lebowski',
+                'life aquatic',
+                'there will be blood',
+                'true grit']
 
-apollo_13 = media.Movie('568')
+movies = []
+for title in movie_titles:
+    movies.append(media.Movie(title))
 
-big_lebowski = media.Movie('115')
-
-life_aquatic = media.Movie('421')
-
-there_will_be_blood = media.Movie('7345')
-                                  
-true_grit = media.Movie('44264')
-
-movies = [space_odyssey, apollo_13, big_lebowski, life_aquatic, there_will_be_blood, true_grit]
 fresh_tomatoes.open_movies_page(movies)
-
