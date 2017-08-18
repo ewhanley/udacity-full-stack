@@ -26,7 +26,6 @@ main_page_head = '''
             font-size: 30px;
             margin: 0px;
         }
-            
         #trailer .modal-dialog {
             margin-top: 200px;
             width: 640px;
@@ -131,12 +130,14 @@ main_page_content = '''
 
     <div id="footer">
       <div class="container text-left"; style="vertical-align: middle;">
-        <img src='themoviedb.png' style='float: left; padding-right: 5px;'/>
-        <p class="text-muted credit" style="color: black">This product uses the <a href="https://www.themoviedb.org/documentation/api">TMDb API</a> but is not endorsed or certified by TMDb.</p>
+        <img src='movie-website/images/themoviedb.png' style='float: left; padding-right: 5px;'/>
+        <p class="text-muted credit" style="color: black">This product uses the
+        <a href="https://www.themoviedb.org/documentation/api">TMDb API</a>
+        but is not endorsed or certified by TMDb.</p>
       </div>
     </div>
 
-    
+
 
   </body>
 </html>
@@ -145,7 +146,9 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-url="{trailer_youtube_url}" data-toggle="modal" data-target="#trailer">
+<div class="col-md-6 col-lg-4 movie-tile text-center"
+ data-trailer-youtube-url="{trailer_youtube_url}"
+ data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
 </div>
