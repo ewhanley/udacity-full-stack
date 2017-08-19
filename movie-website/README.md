@@ -24,7 +24,7 @@ This project is the first in a series of projects I am completing for Udacity's 
 3. Save the changes to ```media.py``` and run ```entertainment_center.py``` from the command line:
   
     ```bash
-    python entertainment_center.py
+    > python entertainment_center.py
     ```
 
 
