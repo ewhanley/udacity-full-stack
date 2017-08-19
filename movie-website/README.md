@@ -47,6 +47,6 @@ These instructions will get explain how to get a copy of this project running on
 
 ## Miscellaneous
 * The file ```fresh_tomatoes.py``` is a slightly modified version a file supplied by Udacity as part of this project.
-* This product uses the TMDb API but is not endorsed or certified by TMDb.
+* This product uses the TMDb API but is not endorsed or certified by [TMDb](https://www.themoviedb.org).
 * This README document is based on [this](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) template.
 
