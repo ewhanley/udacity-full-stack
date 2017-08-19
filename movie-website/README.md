@@ -22,6 +22,7 @@ These instructions will get explain how to get a copy of this project running on
         
         > git clone https://github.com/ewhanley/udacity-full-stack.git
         ```
+        
 2. Get an API key from TMDb by following the instructions [here](https://www.themoviedb.org/faq/api)
 3. Once you have an API key, replace ```{YOUR_TMDb_API_KEY}``` with your key in line 29 of ```media.py```:
     
@@ -36,6 +37,7 @@ These instructions will get explain how to get a copy of this project running on
         
         > python entertainment_center.py
         ```
+        
 5. Enjoy the movie trailers or add your own by title to ```entertainment_center.py```:
 
         ```python
