@@ -15,7 +15,8 @@ These instructions will get explain how to get a copy of this project running on
 * Python 2.x
 * API Key from [www.themoviedb.org](https://www.themoviedb.org/documentation/api) 
 
-### How to Run Project
+## How to Run Project
+
 1. Download or clone this repository to your machine:
 
         ```bash
