@@ -1,6 +1,6 @@
 # Project 1: Movie Trailer Website
 
-This is server-side code to store a list of some of my favorite movies. The list of movies is used to gather metadata about the movies from [The Movie DB's](https://www.themoviedb.org/) API. The metadata includes the movie's official title, plot summary, poster URL, and trailer URL. The metadata for all of the movies in the list is used to generate a static web page that lets visitors browse the movie posters and watch their respective trailers.
+This is server-side code to store a list of some of my favorite movies. The list of movies is used to gather metadata about the movies from [The Movie DB's](https://www.themoviedb.org/) API. The metadata includes the movie's official title, plot summary, poster URL, and trailer URL. The metadata for all of the movies in the list is used to generate a website where visitors can browse the movie posters and watch their respective trailers.
 
 ## Motivation
 
@@ -46,6 +46,7 @@ These instructions will get explain how to get a copy of this project running on
         ```
 
 ## Miscellaneous
+* The file ```fresh_tomatoes.py``` is a slightly modified version a file supplied by Udacity as part of this project.
 * This product uses the TMDb API but is not endorsed or certified by TMDb.
 * This README document is based on [this](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) template.
 
