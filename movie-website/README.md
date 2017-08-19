@@ -26,10 +26,10 @@ These instructions will get explain how to get a copy of this project running on
 2. Get an API key from TMDb by following the instructions [here](https://www.themoviedb.org/faq/api)
 3. Once you have an API key, replace ```{YOUR_TMDb_API_KEY}``` with your key in line 29 of ```media.py```:
     
-                ```python
+        ```python
         
-                api_key = '{YOUR_TMDb_API_KEY}'
-                ```
+        api_key = '{YOUR_TMDb_API_KEY}'
+        ```
   
 4. Save the changes to ```media.py``` and run ```entertainment_center.py``` from the command line:
   
