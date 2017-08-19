@@ -15,7 +15,8 @@ This project is the first in a series of projects I am completing for Udacity's 
 
 ## How to Run Project
 1. Get an API key from TMDb by following the instructions [here](https://www.themoviedb.org/faq/api)
-2. Once you have an API key, you'll have to add it to '''media.py'''
+2. Once you have an API key, you'll have to add it to line 29 of [media.py](https://github.com/ewhanley/udacity-full-stack/blob/master/movie-website/media.py)
+```media.py```
 
 
 
