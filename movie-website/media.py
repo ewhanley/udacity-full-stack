@@ -26,7 +26,7 @@ class Movie():
         whether or not a video can be embedded.
     """
 
-    api_key = '{YOU_TMDb_API_KEY}'
+    api_key = '{YOUR_TMDb_API_KEY}'
 
     def __init__(self, movie_title):
         """Inits Movie with title, storyline, poster url, and trailer url.
