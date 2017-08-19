@@ -130,7 +130,7 @@ main_page_content = '''
 
     <div id="footer">
       <div class="container text-left"; style="vertical-align: middle;">
-        <img src='movie-website/images/themoviedb.png' style='float: left; padding-right: 5px;'/>
+        <img src='images/themoviedb.png' style='float: left; padding-right: 5px;'/>
         <p class="text-muted credit" style="color: black">This product uses the
         <a href="https://www.themoviedb.org/documentation/api">TMDb API</a>
         but is not endorsed or certified by TMDb.</p>
