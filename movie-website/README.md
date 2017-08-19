@@ -19,25 +19,27 @@ These instructions will get explain how to get a copy of this project running on
 1. Download or clone this repository to your machine:
 
         ```bash
-        > git clone https://github.com/ewhanley/udacity-full-stack.git
         
+        > git clone https://github.com/ewhanley/udacity-full-stack.git
         ```
 2. Get an API key from TMDb by following the instructions [here](https://www.themoviedb.org/faq/api)
 3. Once you have an API key, replace ```{YOUR_TMDb_API_KEY}``` with your key in line 29 of ```media.py```:
     
         ```python
-        api_key = '{YOUR_TMDb_API_KEY}'
         
+        api_key = '{YOUR_TMDb_API_KEY}'
         ```
   
 4. Save the changes to ```media.py``` and run ```entertainment_center.py``` from the command line:
   
         ```bash
+        
         > python entertainment_center.py
         ```
 5. Enjoy the movie trailers or add your own by title to ```entertainment_center.py```:
 
         ```python
+        
         movie_titles = ['2001 space odyssey',
                         'apollo 13',
                         'the big lebowski',
