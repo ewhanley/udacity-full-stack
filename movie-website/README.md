@@ -18,7 +18,7 @@ These instructions will get explain how to get a copy of this project running on
 ### How to Run Project
 1. Download or clone this repository to your machine:
 
-        ```bash
+        ```
         
         > git clone https://github.com/ewhanley/udacity-full-stack.git
         ```
