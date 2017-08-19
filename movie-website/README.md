@@ -11,7 +11,7 @@ This project is the first in a series of projects I am completing for Udacity's 
 ## Required Libraries and Dependencies
 
 - Python 2.x
-- API Key from [www.themoviedb.org](https://www.themoviedb.org/documentation/api)
+- API Key from [www.themoviedb.org](https://www.themoviedb.org/documentation/api) (Instructions [here](https://www.themoviedb.org/faq/api?language=en))
 
 ## Project contents
 
