@@ -1,26 +1,36 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: background-origin: border-box;
+    box-sizing: border-box;
 }
 
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-    body {
-        background-color: red;
-    }
+header {
+    display: flex;
+    background-color: gray;
 }
 
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-    body {
-        background-color: yellow;
-    }
+section {
+    background-color: blue;
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-    body {
-        background-color: blue;
-    }
+article {
+    background-color: red;
+}
+
+footer {
+    background-color: green;
+}
+
+.logo {
+    margin-left: 0;
+    margin-right: auto;
+    align-content: left;
+    background-color: yellow;
+}
+
+.name {
+    margin-left: auto;
+    margin-right: 0;
+    align-content: right;
+    background-color: purple;
 }
