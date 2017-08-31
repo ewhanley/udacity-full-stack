@@ -9,6 +9,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: "roboto", sans-serif;
     font-size: 18px;
@@ -19,7 +21,6 @@ body {
 header {
     display: flex;
     align-items: center;
-    border-bottom: medium solid #7d97ad;
 }
 
 section {

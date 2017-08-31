@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "roboto";
+    src: url("fonts/Roboto-Light-webfont.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+  }
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: #2d3c49;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 0.2em solid #7d97ad;
+}
+
+figure {
+    height: 300px;
+    overflow: hidden;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 0.01em solid #2d3c49;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    padding-top: 15px;
+}
+
+h2 {
+    color: #7d97ad;
+}
+
+.logo {
+    margin-left: 0;
+    margin-right: auto;
+    align-content: left;
+    padding: 10px;
+}
+
+.name {
+    margin-left: auto;
+    margin-right: 0;
+    align-content: right;
+    padding: 10px;
+}
+
+
+/* Tablet Styles */
+@media screen and (min-width: 650px) and (max-width: 960px) {
+    article {
+        width: 50%;
+    }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 961px) {
+    .page {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    article {
+        width: 33.3%;
+        padding: 10px;
+    }
+
+}
