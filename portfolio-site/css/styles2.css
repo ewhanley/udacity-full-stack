@@ -11,7 +11,7 @@
 
 body {
     font-family: "roboto", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.8em;
   }
 
@@ -29,13 +29,12 @@ header {
 
 hr {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border-top: 0.2em solid #7d97ad;
 }
 
 figure {
-    height: 300px;
-    overflow: hidden;
+    max-height: 300px;
 }
 
 
@@ -45,42 +44,52 @@ section {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding-top: 10px;
+    padding: 10px 0px 0px 20px;
 }
 
 article {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 0.01em solid #2d3c49;
+    text-align: center;
+}
+
+article img {
+    border: 1px solid #2d3c49;
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     width: 100%;
     font-size: 14px;
-    height: 30px;
-    padding-top: 15px;
+    background-color: #7d97ad; 
 }
 
 h2 {
     color: #7d97ad;
 }
 
-.logo {
+header img {
     margin-left: 0;
     margin-right: auto;
     align-content: left;
-    padding: 10px;
+    padding: 10px 0px 0px 10px;
+    width: 100px;
 }
 
 .name {
     margin-left: auto;
     margin-right: 0;
-    align-content: right;
-    padding: 10px;
+    text-align: right; 
+    padding: 10px 10px 0px 0px;
+}
+
+.page-header {
+    padding-top: 15px;
 }
 
 
@@ -88,7 +97,13 @@ h2 {
 @media screen and (min-width: 650px) and (max-width: 960px) {
     article {
         width: 50%;
+        padding: 10px;
     }
+
+    header img {
+        width: 126px;
+    }
+
 }
 
 /* Desktop Styles */
@@ -102,5 +117,10 @@ h2 {
         width: 33.3%;
         padding: 10px;
     }
+
+    header img {
+        width: 126px;
+    }
+
 
 }
