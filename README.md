@@ -5,5 +5,5 @@ This repo contains projects that I completed (or am working on) as part of the
 
 ## Projects Completed
 
-* [Movie Trailer Website](https://github.com/ewhanley/udacity-full-stack/tree/master/movie-website)
-* [Portfolio Site](https://github.com/ewhanley/udacity-full-stack/tree/master/portfolio-site)
+* Project 1 [Movie Trailer Website](https://github.com/ewhanley/udacity-full-stack/tree/master/movie-website)
+* Project 2 [Portfolio Site](https://github.com/ewhanley/udacity-full-stack/tree/master/portfolio-site)
