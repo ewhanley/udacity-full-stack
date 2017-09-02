@@ -1,7 +1,7 @@
 /* Common Styles */
 @font-face {
     font-family: "roboto";
-    src: url("fonts/Roboto-Light-webfont.woff") format("woff");
+    src: url("../fonts/Roboto-Light-webfont.woff") format("woff");
 }
 
 * {
@@ -97,6 +97,7 @@ footer {
 
 h2 {
     color: #7d97ad;
+    margin-left: 10px;
 }
 
 /* Tablet Styles */
