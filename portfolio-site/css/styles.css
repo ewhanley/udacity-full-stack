@@ -16,7 +16,7 @@ body {
     line-height: 1.8em;
   }
 
-.page {
+.container {
     display: flex;
     flex-wrap: wrap;
 }
