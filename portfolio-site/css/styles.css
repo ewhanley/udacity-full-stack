@@ -114,7 +114,7 @@ h2 {
 
 /* Desktop Styles */
 @media screen and (min-width: 961px) {
-    .page {
+    .container {
         width: 960px;
         margin: 0 auto;
     }
