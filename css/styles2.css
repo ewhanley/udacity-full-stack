@@ -1,3 +1,4 @@
+/* Common Styles */
 @font-face {
     font-family: "roboto";
     src: url("fonts/Roboto-Light-webfont.woff") format("woff");
@@ -27,16 +28,37 @@ header {
     color: #2d3c49;
 }
 
-hr {
-    width: 100%;
-    margin-bottom: 5px;
-    border-top: 0.2em solid #7d97ad;
+.page-header {
+    margin-top: 15px;
 }
 
-figure {
+.header-logo {
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+.header-text {
+    margin-left: auto;
+    margin-right: 15px;
+    text-align: right; 
+}
+
+.page-header {
+    border-bottom: 3px solid #7d97ad;
+    align-items: center;
+    margin-top: 10px;
+}
+
+figure img {
+    padding-top: 10px;
     max-height: 300px;
+    width: 100%;
 }
-
 
 section {
     display: flex;
@@ -44,7 +66,6 @@ section {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 10px 0px 0px 20px;
 }
 
 article {
@@ -52,6 +73,7 @@ article {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 10px;
 }
 
 article img {
@@ -62,48 +84,31 @@ article img {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     width: 100%;
-    font-size: 14px;
     background-color: #7d97ad; 
+}
+
+.social-media-link {
+    margin: 0px 20px 0px 20px;
 }
 
 h2 {
     color: #7d97ad;
 }
 
-header img {
-    margin-left: 0;
-    margin-right: auto;
-    align-content: left;
-    padding: 10px 0px 0px 10px;
-    width: 100px;
-}
-
-.name {
-    margin-left: auto;
-    margin-right: 0;
-    text-align: right; 
-    padding: 10px 10px 0px 0px;
-}
-
-.page-header {
-    padding-top: 15px;
-}
-
-
 /* Tablet Styles */
 @media screen and (min-width: 650px) and (max-width: 960px) {
     article {
         width: 50%;
-        padding: 10px;
     }
 
-    header img {
+    .logo-img {
         width: 126px;
+        height: auto;
     }
-
 }
 
 /* Desktop Styles */
@@ -115,12 +120,10 @@ header img {
 
     article {
         width: 33.3%;
-        padding: 10px;
     }
 
-    header img {
+    .logo-img {
         width: 126px;
+        height: auto;
     }
-
-
 }
