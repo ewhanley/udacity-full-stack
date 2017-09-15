@@ -79,6 +79,12 @@ This will install all of the required library dependencies for Python as well as
 
 The script will output three questions and their answers in tabular format to the terminal. It will also write the same text to a file called `output.txt` in the `vagrant' directory.
 
+    Who are the most popular article authors of all time?
+    | Author                 |   Views |
+    |------------------------+---------|
+    | Ursula La Multa        |  507594 |
+    | Rudolf von Treppenwitz |  423457 |
+
 **Note:** The VM is configured such that all Python dependencies are pre-installed. Additionally, the database is rebuilt each time the VM image is reloaded. If you ever need to refresh the database, you can type `exit` or `Ctrl-d` to get back to your machine's prompt where you can run:
 
 ```bash
