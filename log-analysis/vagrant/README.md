@@ -40,7 +40,7 @@ The following instructions will explain how to get a copy of this project runnin
     > cd udacity-full-stack/log-analysis/vagrant
     ```
 
-4. Download the data to populate the project database [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). You will have to extract the file and put the `newsdata.sql` file into the `/vagrant` directory from Step 3.
+4. Download the data to populate the project database [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). **You will have to extract the file and put the `newsdata.sql` file into the `/vagrant` directory from Step 3.**
 
 5. Next, start the virtual machine by typing:
 
@@ -48,7 +48,7 @@ The following instructions will explain how to get a copy of this project runnin
 
     > vagrant up
 
-This will install all of the required library dependencies for Python as well as hydrate the database. If you're interested in the details of this, check out `vagrant/Vagrantfile`, which is a slightly modified version of the config provided by Udacity as part of this project.
+This step will take several minutes the first time you run it as it will install all of the required library dependencies for Python as well as hydrate the database. If you're interested in the details of this, check out `vagrant/Vagrantfile`, which is a slightly modified version of the config provided by Udacity as part of this project.
 
 6. After the VM is up and running, log into it by typing:
 
