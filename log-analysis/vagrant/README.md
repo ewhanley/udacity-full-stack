@@ -77,7 +77,7 @@ This will install all of the required library dependencies for Python as well as
     vagrant@vagrant:/vagrant$ ./logs_analysis.py
     ```
 
-The script will output three questions and their answers in tabular format to the terminal. It will also write the same text to a file called `output.txt` in the `vagrant' directory.
+The script will output three questions and their answers in tabular format to the terminal. It will also write the same text to a file called `output.txt` in the `vagrant' directory. The following in a snippet of the question and tabulated answer output:
 
     Who are the most popular article authors of all time?
     | Author                 |   Views |
