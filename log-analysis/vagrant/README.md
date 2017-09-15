@@ -1,10 +1,10 @@
 # Project 3: Logs Analysis
 
-This project is a Python script that executes queries against a PostgreSQL database. The script and database are both run on  Linux-based VirtualBox VM configured with Vagrant. The project specification posed three questions, which can be answered by crafting and executing queries against a database containing information about articles, their authors, and page views for each article.
+This project is a Python script that executes queries against a PostgreSQL database. The script and database are both run on a Linux-based VirtualBox VM configured with Vagrant. The project specification posed three questions, which were answered by crafting and executing queries against a database containing information about articles, their authors, and the response logs from the server hosting the articles.
 
 ## Motivation
 
-This project is the first in a series of projects I am completing for Udacity's [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
+This project is the third in a series of projects I am completing for Udacity's [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ The following instructions will explain how to get a copy of this project runnin
     > cd udacity-full-stack/log-analysis/vagrant
     ```
 
-4. Download the data to populate the project database [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). You will have to extract the file and put the `newsdata.sql` file into the `/vagran` directory from Step 3.
+4. Download the data to populate the project database [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). You will have to extract the file and put the `newsdata.sql` file into the `/vagrant` directory from Step 3.
 
 5. Next, start the virtual machine by typing:
 
@@ -81,9 +81,9 @@ The script will output three questions and their answers in tabular format to th
 
 **Note:** The VM is configured such that all Python dependencies are pre-installed. Additionally, the database is rebuilt each time the VM image is reloaded. If you ever need to refresh the database, you can type `exit` or `Ctrl-d` to get back to your machine's prompt where you can run:
 
-    ```bash
+```bash
 
-    > vagrant reload
-    ```
+> vagrant reload
+```
 
 This will reload the VM from the config in Vagrantfile, which will recreate the database.
