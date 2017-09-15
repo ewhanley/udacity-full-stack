@@ -89,7 +89,7 @@ The script will output three questions and their answers in tabular format to th
 
 ```bash
 
-> vagrant reload
+> vagrant reload --provision
 ```
 
 This will reload the VM from the config in Vagrantfile, which will recreate the database.
