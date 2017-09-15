@@ -103,18 +103,22 @@ query2 = """
 question3 = "On which days did more than 1% of requests lead to errors?"
 header3 = ["Date", "Pct Error"]
 query3 = """
-        SELECT TO_CHAR(date, 'Month dd, YYYY') AS date,
-            (ROUND(fraction * 100, 2)::text || '%') AS percent_errors
+        SELECT TO_CHAR(s.date, 'Month dd, YYYY') AS date,
+        (ROUND(s.status_count::decimal/t.total_count*100, 2)::text || '%')
+            as percent_error
         FROM
-        (
-        SELECT DISTINCT DATE_TRUNC('day', time) AS date, status,
-        (COUNT(status) OVER dsw::decimal) / (COUNT(status) OVER dw) AS FRACTION
-        FROM log
-        WINDOW dsw AS (PARTITION BY DATE_TRUNC('day', time), status),
-            dw AS (PARTITION BY DATE_TRUNC('day', time))
-        ) as error_counts
-        WHERE status like '4%' AND fraction > 0.01
-        ORDER BY fraction DESC;"""
+            (SELECT DATE_TRUNC('day', time) AS date, status,
+            count(status) AS status_count
+            FROM log
+            WHERE status LIKE '4%'
+            GROUP BY DATE_TRUNC('day', time), status) s,
+            (SELECT DATE_TRUNC('day', time) AS date, COUNT(status) AS
+                total_count
+            FROM log
+            GROUP BY DATE_TRUNC('day', time)) t
+        WHERE s.date = t.date AND
+        (s.status_count::decimal/t.total_count) > 0.01
+        ORDER BY percent_error DESC;"""
 
 q1 = QuestionQueryResponse("news", question1, query1, header1)
 q2 = QuestionQueryResponse("news", question2, query2, header2)
