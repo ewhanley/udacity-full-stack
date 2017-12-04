@@ -6,6 +6,9 @@ __pycache__/
 # HTML
 *.html
 !index.html
+!category.html
+!car.html
+
 
 # C extensions
 *.so
