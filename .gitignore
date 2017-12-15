@@ -8,6 +8,8 @@ __pycache__/
 !index.html
 !category.html
 !car.html
+!create.html
+!update.html
 
 
 # C extensions
