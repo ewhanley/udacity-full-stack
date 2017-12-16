@@ -10,6 +10,7 @@ __pycache__/
 !car.html
 !create.html
 !update.html
+!delete.html
 
 
 # C extensions
