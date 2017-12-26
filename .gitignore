@@ -3,14 +3,20 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+client_secrets.json
+
 # HTML
 *.html
 !index.html
+!index_loggedin.html
 !category.html
+!category_loggedin.html
 !car.html
+!car_loggedin.html
 !create.html
 !update.html
 !delete.html
+!login.html
 
 
 # C extensions
